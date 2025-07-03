@@ -2,7 +2,7 @@ module.exports.config = {
   name: "cutebaby",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "FAROOQ BABU",
   description: "cute bacha photos",
   commandCategory: "Random-IMG",
   usages: "baby dp",
