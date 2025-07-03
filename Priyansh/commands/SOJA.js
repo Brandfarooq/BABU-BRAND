@@ -3,7 +3,7 @@ module.exports.config = {
   name: "gn",
     version: "2.1.1",
   hasPermssion: 0,
-  credits: "PRINCE RAJPUT", 
+  credits: "FAROOQ KHAN", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
