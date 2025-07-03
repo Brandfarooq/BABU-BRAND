@@ -2,7 +2,7 @@ module.exports.config = {
   name: "chainagirl",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "FAROOQ BABU",
   description: "chaina girl",
   commandCategory: "Random-IMG",
   usages: "chaina girl dp",
