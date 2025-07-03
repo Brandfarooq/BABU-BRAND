@@ -3,7 +3,7 @@ module.exports.config = {
   name: "HARTLESS",
     version: "2.1.1",
   hasPermssion: 0,
-  credits: "𝐏𝐑𝐈𝐘𝐀𝐍𝐒𝐇𝐈 𝐊𝐀𝐔𝐑", 
+  credits: "𝐅𝐀𝐑𝐎𝐎𝐐 𝐊𝐇𝐀𝐍", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
@@ -13,21 +13,15 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("radhe radhe") ||
-     react.includes("Radhe") || react.includes("Hartless") || react.includes("@Hartless Queen") ||
-react.includes("kanha") ||
-react.includes("murli") ||     
-react.includes("Radha")) {
+  if(react.includes("ALLAH HU AKBAR") ||
+     react.includes("ALLAH") || react.includes("Hartless") || react.includes("@Hartless Queen") ||
+react.includes("ALLAH") ||
+react.includes("ALLAH") ||     
+react.includes("ALLAH")) {
     var msg = {
-        body: `💝༄ᶦᶰᵈ᭄🔥⃝яα∂нє яα∂нє❥❥═══🙏 
+        body: `*❥⋆⃝─Ξ𝐀ʟʟᴀʜ 𝐂ᴀɴ 𝐂ʜᴀɴɢᴇ 𝐄ᴠᴇʀʏᴛʜɪɴɢ 𝐈ɴ ᴀ 𝐁ʟɪɴᴋ⎯꯭⟶🩷🌙🌦️•*
         
-        हमने प्रेम की कितनी बाधा 
-        ________________________
-        देखी, फिर भी कृष्णा के  __________________________
-        
-        साथ राधा देखी…!!
-        
-        ༄ᶦᶰᵈ᭄🔥⃝яα∂нє яα∂нє❤️❥❥═══🙏👈`,attachment: fs.createReadStream(__dirname + `/noprefix/radhe.mp4`)
+        `,attachment: fs.createReadStream(__dirname + `/noprefix/ALLAH.mp4`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
