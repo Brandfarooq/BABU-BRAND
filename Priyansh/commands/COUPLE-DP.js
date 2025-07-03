@@ -2,7 +2,7 @@ module.exports.config = {
   name: "Coupledp",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "FAROOQ BABU",
   description: "couple Dp photos",
   commandCategory: "Random-IMG",
   usages: "couple dp",
