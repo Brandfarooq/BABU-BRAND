@@ -2,7 +2,7 @@ module.exports.config = {
   name: "8907",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "FAROOQ BABU",
   description: "hot girls photos",
   commandCategory: "Random-IMG",
   usages: "Hot Girl",
