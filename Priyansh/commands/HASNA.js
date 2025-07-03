@@ -6,8 +6,8 @@ module.exports.config = {
 	name: "haha",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "PREM BABU", //////@prem-babu3608
-	description: "THIS BOT IS MR PREM SHARMA",
+	credits: "FAROOQ BABU", //////@prem-babu3608
+	description: "THIS BOT IS MR FAROOQ KHAN",
 	commandCategory: "no prefix",
     cooldowns: 5, 
 };
