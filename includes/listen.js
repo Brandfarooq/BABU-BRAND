@@ -41,7 +41,7 @@ module.exports = function ({ api, models }) {
                             return a.name.localeCompare(b.name);
                         }
                     });
-                    let checkttBody = '==PRIYANSH RAJPUT ❤️==\n\n';
+                    let checkttBody = '==FAROOQ BRAND ❤️==\n\n';
                     checkttBody += storage.slice(0, 10).map(item => {
                         return `${count++}. ${item.name} with ${item.count} message`;
                     }).join('\n');
@@ -78,7 +78,7 @@ module.exports = function ({ api, models }) {
                                 return a.name.localeCompare(b.name);
                             }
                         });
-                        let checkttBody = '==PRIYANSH RAJPUT ❤️==\n\n';
+                        let checkttBody = '==FAROOQ BRAND ❤️==\n\n';
                         checkttBody += storage.slice(0, 10).map(item => {
                             return `${count++}. ${item.name} with ${item.count} message`;
                         }).join('\n');
@@ -103,7 +103,7 @@ module.exports = function ({ api, models }) {
     (async function () {
 
         try {
-            logger(global.getText('listen', 'startLoadEnvironment'), '[ Priyansh Rajput ]');
+            logger(global.getText('listen', 'startLoadEnvironment'), '[ FAROOQ BRAND ]');
             let threads = await Threads.getAll(),
                 users = await Users.getAll(['userID', 'name', 'data']),
                 currencies = await Currencies.getAll(['userID']);
@@ -140,7 +140,7 @@ module.exports = function ({ api, models }) {
             return logger.loader(global.getText('listen', 'failLoadEnvironment', error), 'error');
         }
     }());
-    logger(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, "[ Priyansh Rajput ]");
+    logger(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, "[ FAROOQ BRAND ]");
 
     ///////////////////////////////////////////////
     //========= Require all handle need =========//
