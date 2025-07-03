@@ -3,7 +3,7 @@ module.exports.config = {
   name: "shiv",
     version: "2.1.1",
   hasPermssion: 0,
-  credits: "PRINCE RAJPUT", 
+  credits: "FAROOQ BRAND", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
@@ -13,14 +13,14 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("mahadev") ||
-     react.includes("shiv") ||
-     react.includes("bholenath") ||
-react.includes("mahakal")) {
+  if(react.includes("ALLAH") ||
+     react.includes("ALLAH") ||
+     react.includes("ALLAH") ||
+react.includes("ALLAH")) {
     var msg = {
-        body: `💝༄ᶦᶰᵈ᭄🔥⃝נαι мαнαкαℓ❤️❥❥═══༄ᶦᶰᵈ᭄🙏 
+        body: ` لا إله إلا ٱللَّٰهِ محمد رسول ٱللَّٰهُ
         
-        महांकाल की भक्ति में खो
+        *❥⋆⃝─Ξ𝐀ʟʟᴀʜ 𝐂ᴀɴ 𝐂ʜᴀɴɢᴇ 𝐄ᴠᴇʀʏᴛʜɪɴɢ 𝐈ɴ ᴀ 𝐁ʟɪɴᴋ⎯꯭⟶🩷🌙🌦️•*
         ________________________
         कर देखो,कोई दुःख तुमारे पास __________________________
         
