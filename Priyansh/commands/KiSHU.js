@@ -6,7 +6,7 @@ module.exports.config = {
 	name: "KISS-YOU",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "FAROOQ BABU", ////////@KHAN BRAND
+	credits: "FAROOQ BABU", ////////@FAROOQ-BRAND
 	description: "THIS BOT IS MR FAROOQ KHAN",
 	commandCategory: "no prefix",
     cooldowns: 5, 
