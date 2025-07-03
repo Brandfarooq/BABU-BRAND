@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "owner",
     version: "1.0.1",
 	hasPermssion: 0,
-	credits: "Arun", 
+	credits: "Farooq", 
 	description: "no prefix",
 	commandCategory: "No command marks needed",
 	usages: "...",
@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
      react.includes("Nilam") || 
 react.includes("owner")) {
 		var msg = {
-				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆 ★ fecebook https://www.facebook.com/profile.php?id=61565513061548`",
+				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆 ★ fecebook https://www.facebook.com/profile.php?id=100026482163338`",
 				attachment: fs.createReadStream(__dirname + `/noprefix/owner.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
